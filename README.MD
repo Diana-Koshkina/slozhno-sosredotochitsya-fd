@@ -1,1 +1,0 @@
-https://github.com/Diana-Koshkina/slozhno-sosredotochitsya-fd
