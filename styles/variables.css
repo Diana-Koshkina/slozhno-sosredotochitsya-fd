@@ -1,4 +1,12 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+
+:root {
+--cover-image: url(../images/cover-image-dark.png);
+--header-color:#DB00FF;
+--accent-color: #FF0070;
+--bg-color: #000028;
+--content-title-color: #FF0070;
+--card-title-color: #000028;
+--text-color: #F1B2CE;
+--button-outline-hover: #FF007040;
+--button-color: #FF0070;
+}
