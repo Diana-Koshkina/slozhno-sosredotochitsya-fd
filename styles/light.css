@@ -24,10 +24,10 @@
     --card-title-color: #353430;
     --text-color: #353430;
     --button-outline-hover: #35343040;
-     --button-color: #353430;
+    --button-color: #353430;
   }
 
-   .header__decoration {
+  .header__decoration {
     display: none;
   }
 }

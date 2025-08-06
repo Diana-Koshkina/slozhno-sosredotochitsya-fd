@@ -1,9 +1,5 @@
 .page {
-  background-image: var(--cover-image);
-  background-position: center;
-  background-attachment: fixed;
-  background-color: var(--bg-color, #000028);
-  background-size: cover;
+  background: var(--cover-image) var(--bg-color, #000028) fixed center / cover;
 }
 
 .header {
@@ -23,8 +19,8 @@
   height: 25px;
   right: 10px;
   top: 10px;
-  border-top: 1px solid var(--accent-color, #ff0070);
-  border-right: 1px solid var(--accent-color, #ff0070);
+  border-top: 1px solid var(--content-title-color, #ff0070);
+  border-right: 1px solid var(--content-title-color, #ff0070);
 }
 
 .decorated-zone::after {
@@ -34,8 +30,8 @@
   height: 25px;
   left: 10px;
   bottom: 10px;
-  border-bottom: 1px solid var(--accent-color, #ff0070);
-  border-left: 1px solid var(--accent-color, #ff0070);
+  border-bottom: 1px solid var(--content-title-color, #ff0070);
+  border-left: 1px solid var(--content-title-color, #ff0070);
 }
 
 .header__decoration {
